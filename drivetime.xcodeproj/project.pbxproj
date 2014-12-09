@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* drivetimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* drivetimeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* drivetimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* drivetimeViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* drivetimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* drivetimeViewController.m */; };
+		AA1C09211234B2BD008B76B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA1C09201234B2BD008B76B2 /* CoreLocation.framework */; };
+		AA1C09281234B357008B76B2 /* myLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1C09271234B357008B76B2 /* myLocation.m */; };
+		AA31BDB112335BE8006448F7 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA31BDB012335BE8006448F7 /* settings.plist */; };
+		AA3C1B57122D91CA00C269E8 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C1B54122D91CA00C269E8 /* NSDataAdditions.m */; };
+		AA3C1B58122D91CA00C269E8 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C1B56122D91CA00C269E8 /* TBXML.m */; };
+		AA3C1B5A122D922400C269E8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C1B59122D922400C269E8 /* libz.dylib */; };
+		AA442E5F1224D29300BD2DC1 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AA442E561224D29300BD2DC1 /* NSObject+SBJSON.m */; };
+		AA442E601224D29300BD2DC1 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AA442E581224D29300BD2DC1 /* NSString+SBJSON.m */; };
+		AA442E611224D29300BD2DC1 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AA442E5A1224D29300BD2DC1 /* SBJsonBase.m */; };
+		AA442E621224D29300BD2DC1 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA442E5C1224D29300BD2DC1 /* SBJsonParser.m */; };
+		AA442E631224D29300BD2DC1 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA442E5E1224D29300BD2DC1 /* SBJsonWriter.m */; };
+		AA452A1D12125A9D0097F32D /* tripDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA452A1B12125A9D0097F32D /* tripDetailsViewController.m */; };
+		AA452A1E12125A9D0097F32D /* tripDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA452A1C12125A9D0097F32D /* tripDetailsViewController.xib */; };
+		AA452A2B12125D710097F32D /* go_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AA452A2A12125D710097F32D /* go_button.png */; };
+		AA452A30121262C40097F32D /* location_button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = AA452A2F121262C40097F32D /* location_button_black.png */; };
+		AABBF1AC120A822D00EBA0CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AABBF1AB120A822D00EBA0CA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* drivetimeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drivetimeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* drivetimeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drivetimeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* drivetime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drivetime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* drivetimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = drivetimeViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* drivetimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drivetimeViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* drivetimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drivetimeViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* drivetime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drivetime_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* drivetime-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "drivetime-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AA1C09201234B2BD008B76B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA1C09261234B357008B76B2 /* myLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLocation.h; sourceTree = "<group>"; };
+		AA1C09271234B357008B76B2 /* myLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLocation.m; sourceTree = "<group>"; };
+		AA31BDB012335BE8006448F7 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
+		AA3C1B53122D91CA00C269E8 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		AA3C1B54122D91CA00C269E8 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		AA3C1B55122D91CA00C269E8 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		AA3C1B56122D91CA00C269E8 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		AA3C1B59122D922400C269E8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		AA442E541224D29300BD2DC1 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		AA442E551224D29300BD2DC1 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		AA442E561224D29300BD2DC1 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		AA442E571224D29300BD2DC1 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		AA442E581224D29300BD2DC1 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		AA442E591224D29300BD2DC1 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		AA442E5A1224D29300BD2DC1 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		AA442E5B1224D29300BD2DC1 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		AA442E5C1224D29300BD2DC1 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		AA442E5D1224D29300BD2DC1 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		AA442E5E1224D29300BD2DC1 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		AA452A1A12125A9D0097F32D /* tripDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tripDetailsViewController.h; path = ../tripDetailsViewController.h; sourceTree = "<group>"; };
+		AA452A1B12125A9D0097F32D /* tripDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tripDetailsViewController.m; path = ../tripDetailsViewController.m; sourceTree = "<group>"; };
+		AA452A1C12125A9D0097F32D /* tripDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tripDetailsViewController.xib; sourceTree = "<group>"; };
+		AA452A2A12125D710097F32D /* go_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_button.png; sourceTree = "<group>"; };
+		AA452A2F121262C40097F32D /* location_button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_button_black.png; sourceTree = "<group>"; };
+		AABBF1AB120A822D00EBA0CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				AABBF1AC120A822D00EBA0CA /* MapKit.framework in Frameworks */,
+				AA3C1B5A122D922400C269E8 /* libz.dylib in Frameworks */,
+				AA1C09211234B2BD008B76B2 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AA452A1A12125A9D0097F32D /* tripDetailsViewController.h */,
+				AA452A1B12125A9D0097F32D /* tripDetailsViewController.m */,
+				1D3623240D0F684500981E51 /* drivetimeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* drivetimeAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* drivetimeViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* drivetimeViewController.m */,
+				AA1C09261234B357008B76B2 /* myLocation.h */,
+				AA1C09271234B357008B76B2 /* myLocation.m */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* drivetime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C1B51122D91A000C269E8 /* TBXML */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				AA3C1B59122D922400C269E8 /* libz.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA442E531224D29300BD2DC1 /* JSON */,
+				32CA4F630368D1EE00C91783 /* drivetime_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA452A1C12125A9D0097F32D /* tripDetailsViewController.xib */,
+				AA452A2A12125D710097F32D /* go_button.png */,
+				AA452A2F121262C40097F32D /* location_button_black.png */,
+				2899E5210DE3E06400AC0155 /* drivetimeViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* drivetime-Info.plist */,
+				AA31BDB012335BE8006448F7 /* settings.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				AABBF1AB120A822D00EBA0CA /* MapKit.framework */,
+				AA1C09201234B2BD008B76B2 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA3C1B51122D91A000C269E8 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				AA3C1B53122D91CA00C269E8 /* NSDataAdditions.h */,
+				AA3C1B54122D91CA00C269E8 /* NSDataAdditions.m */,
+				AA3C1B55122D91CA00C269E8 /* TBXML.h */,
+				AA3C1B56122D91CA00C269E8 /* TBXML.m */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
+		AA442E531224D29300BD2DC1 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AA442E541224D29300BD2DC1 /* JSON.h */,
+				AA442E551224D29300BD2DC1 /* NSObject+SBJSON.h */,
+				AA442E561224D29300BD2DC1 /* NSObject+SBJSON.m */,
+				AA442E571224D29300BD2DC1 /* NSString+SBJSON.h */,
+				AA442E581224D29300BD2DC1 /* NSString+SBJSON.m */,
+				AA442E591224D29300BD2DC1 /* SBJsonBase.h */,
+				AA442E5A1224D29300BD2DC1 /* SBJsonBase.m */,
+				AA442E5B1224D29300BD2DC1 /* SBJsonParser.h */,
+				AA442E5C1224D29300BD2DC1 /* SBJsonParser.m */,
+				AA442E5D1224D29300BD2DC1 /* SBJsonWriter.h */,
+				AA442E5E1224D29300BD2DC1 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* drivetime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "drivetime" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = drivetime;
+			productName = drivetime;
+			productReference = 1D6058910D05DD3D006BFB54 /* drivetime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "drivetime" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* drivetime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* drivetimeViewController.xib in Resources */,
+				AA452A1E12125A9D0097F32D /* tripDetailsViewController.xib in Resources */,
+				AA452A2B12125D710097F32D /* go_button.png in Resources */,
+				AA452A30121262C40097F32D /* location_button_black.png in Resources */,
+				AA31BDB112335BE8006448F7 /* settings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* drivetimeAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* drivetimeViewController.m in Sources */,
+				AA452A1D12125A9D0097F32D /* tripDetailsViewController.m in Sources */,
+				AA442E5F1224D29300BD2DC1 /* NSObject+SBJSON.m in Sources */,
+				AA442E601224D29300BD2DC1 /* NSString+SBJSON.m in Sources */,
+				AA442E611224D29300BD2DC1 /* SBJsonBase.m in Sources */,
+				AA442E621224D29300BD2DC1 /* SBJsonParser.m in Sources */,
+				AA442E631224D29300BD2DC1 /* SBJsonWriter.m in Sources */,
+				AA3C1B57122D91CA00C269E8 /* NSDataAdditions.m in Sources */,
+				AA3C1B58122D91CA00C269E8 /* TBXML.m in Sources */,
+				AA1C09281234B357008B76B2 /* myLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drivetime_Prefix.pch;
+				INFOPLIST_FILE = "drivetime-Info.plist";
+				PRODUCT_NAME = drivetime;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = drivetime_Prefix.pch;
+				INFOPLIST_FILE = "drivetime-Info.plist";
+				PRODUCT_NAME = drivetime;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "drivetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "drivetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

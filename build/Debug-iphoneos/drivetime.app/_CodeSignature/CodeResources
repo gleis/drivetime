@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>MainWindow.nib</key>
+		<data>
+		5nLS/MGaIaYnxlUCLpv2yjKAaMc=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>drivetimeViewController.nib</key>
+		<data>
+		5NPYR97aBiwzTqnOZvrXZfFllDU=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		+Z4RUwzx9nBQtNB8NNdPmNAadYE=
+		</data>
+		<key>go_button.png</key>
+		<data>
+		lEZ/sQ3IBdmL+GppC+X1BKoPONc=
+		</data>
+		<key>location_button_black.png</key>
+		<data>
+		Xxt8T8Jsv8nULyZ6WKo9EDg4HlQ=
+		</data>
+		<key>settings.plist</key>
+		<data>
+		gH9TidiptFT0344LE+G83jl7Xlw=
+		</data>
+		<key>tripDetailsViewController.nib</key>
+		<data>
+		TEHF5aNhfNtsSaWm9Pl4n8sGyuM=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

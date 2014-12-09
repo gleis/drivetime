@@ -1,0 +1,1090 @@
+Tdrivetime
+v7
+r0
+t305878266.037018
+cCheck dependencies
+cCpResource build/Debug-iphoneos/drivetime.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/Info.plist drivetime-Info.plist
+cCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib
+cCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib
+cCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib
+cCopyPNGFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/go_button.png go_button.png
+cCopyPNGFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/location_button_black.png location_button_black.png
+cCopyPlistFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/settings.plist settings.plist
+cProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/main.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeAppDelegate.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/tripDetailsViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSString+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonBase.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonParser.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonWriter.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSDataAdditions.o /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/TBXML.o /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/myLocation.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/main.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeAppDelegate.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime normal armv6
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/tripDetailsViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSString+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonBase.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonParser.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonWriter.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSDataAdditions.o /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/TBXML.o /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/myLocation.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime normal armv7
+cCreateUniversalBinary /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime normal "armv6 armv7"
+cGenerateDSYMFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app.dSYM /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime
+cProcessProductPackaging "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision" /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+cTouch /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent
+cCodeSign /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C6C2FE600000000000C79C0
+t1282158566
+s817600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004C6C2FDF00000000000001D0
+t1282158559
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C6C320B00000000002801E0
+t1282159115
+s2621920
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/zlib.h
+c000000004C5A423C00000000000102A5
+t1280983612
+s66213
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/lib/libz.dylib
+c000000004C5A423D0000000000020FF0
+t1280983613
+s135152
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/JSON.h
+c000000004C5354180000000000000BE8
+t1280529432
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m
+c000000004C535269000000000000077D
+t1280529001
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m
+c000000004C535269000000000000075D
+t1280529001
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m
+c000000004C5352690000000000000AC1
+t1280529001
+s2753
+i"SBJsonBase.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m
+c000000004C5352690000000000003B7A
+t1280529001
+s15226
+i"SBJsonParser.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m
+c000000004C53526900000000000020D8
+t1280529001
+s8408
+i"SBJsonWriter.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../TBXML.h
+c000000004BF3E10600000000000012D1
+t1274274054
+s4817
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m
+c000000004C5A48C4000000000000016C
+t1280985284
+s364
+i<UIKit/UIKit.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.h
+c000000004C8485320000000000000382
+t1283753266
+s898
+i<UIKit/UIKit.h>
+i"myLocation.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m
+c000000004C8B19CB0000000000000D6C
+t1284184523
+s3436
+i"tripDetailsViewController.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.h
+c000000004C749EE700000000000001EE
+t1282711271
+s494
+i<UIKit/UIKit.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m
+c000000004C8479A20000000000000E0B
+t1283750306
+s3595
+i"drivetimeAppDelegate.h"
+i"drivetimeViewController.h"
+i"tripDetailsViewController.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.h
+c000000004C84895200000000000005C4
+t1283754322
+s1476
+i<UIKit/UIKit.h>
+i"tripDetailsViewController.h"
+i"myLocation.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m
+c000000004C8B1D7800000000000024BF
+t1284185464
+s9407
+i"drivetimeViewController.h"
+i"JSON.h"
+i"TBXML.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.h
+c000000004C847F2F000000000000031D
+t1283751727
+s797
+i<Foundation/Foundation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m
+c000000004C847E3500000000000003EF
+t1283751477
+s1007
+i"myLocation.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/JSON/NSObject+SBJSON.h
+c000000004C535269000000000000085F
+t1280529001
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/JSON/NSString+SBJSON.h
+c000000004C53526900000000000007F0
+t1280529001
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/JSON/SBJsonBase.h
+c000000004C5352690000000000000B82
+t1280529001
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/JSON/SBJsonParser.h
+c000000004C5352690000000000000C8F
+t1280529001
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/JSON/SBJsonWriter.h
+c000000004C53526900000000000011D9
+t1280529001
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib
+c000000004C5A48C40000000000004E41
+t1280985284
+s20033
+
+N/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.h
+c000000004BF3E1060000000000000A67
+t1274274054
+s2663
+i<Foundation/Foundation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m
+c000000004BF3E10600000000000025EE
+t1274274054
+s9710
+i"NSDataAdditions.h"
+i<zlib.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/TBXML.h
+c000000004BF3E10600000000000012D1
+t1274274054
+s4817
+
+N/Users/mgleissn/Desktop/appdev/drivetime/TBXML.m
+c000000004BF3E10600000000000046DA
+t1274274054
+s18138
+i"TBXML.h"
+i"NSDataAdditions.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+t1284185466
+s510
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app.dSYM
+t1284185465
+s102
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/Info.plist
+t1283749014
+s734
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/MainWindow.nib
+t1283749014
+s1685
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/PkgInfo
+t1283749014
+s8
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/ResourceRules.plist
+t1283749014
+s485
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime
+t1284185465
+s178560
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetimeViewController.nib
+t1283834987
+s6100
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+t1283834988
+s9614
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/go_button.png
+t1283749015
+s14017
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/location_button_black.png
+t1283749015
+s9518
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/settings.plist
+t1283749015
+s88
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/tripDetailsViewController.nib
+t1284184847
+s5654
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSDataAdditions.o
+t1283751773
+s17616
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1283751773
+s7736
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSString+SBJSON.o
+t1283751773
+s7644
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonBase.o
+t1283751773
+s13132
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonParser.o
+t1283751773
+s35824
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonWriter.o
+t1283751773
+s25956
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/TBXML.o
+t1283751773
+s35660
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime
+t1284185465
+s88472
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime.LinkFileList
+c000000004C847F5B000000000000062E
+t1283751771
+s1582
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeAppDelegate.o
+t1283834987
+s52348
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeViewController.o
+t1284185465
+s67756
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/main.o
+t1283751773
+s6472
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/myLocation.o
+t1283751773
+s14704
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/tripDetailsViewController.o
+t1284184847
+s46004
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSDataAdditions.o
+t1283751774
+s17216
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1283751773
+s7712
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSString+SBJSON.o
+t1283751774
+s7620
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonBase.o
+t1283751774
+s13008
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonParser.o
+t1283751774
+s33748
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonWriter.o
+t1283751774
+s25544
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/TBXML.o
+t1283751774
+s34384
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime
+t1284185465
+s84352
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime.LinkFileList
+c000000004C847F5B000000000000062E
+t1283751771
+s1582
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeAppDelegate.o
+t1283834988
+s52188
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeViewController.o
+t1284185465
+s67140
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/main.o
+t1283751773
+s6456
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/myLocation.o
+t1283751774
+s14600
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/tripDetailsViewController.o
+t1284184848
+s45840
+
+N/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent
+t1283834988
+s424
+
+N/Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib
+c000000004C84898500000000000096BD
+t1283754373
+s38589
+
+N/Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch
+c000000004C847BBC00000000000000E2
+t1283750844
+s226
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/mgleissn/Desktop/appdev/drivetime/go_button.png
+c000000004C6225C80000000000003CB3
+t1281500616
+s15539
+
+N/Users/mgleissn/Desktop/appdev/drivetime/location_button_black.png
+c000000004C622B1700000000000021D3
+t1281501975
+s8659
+
+N/Users/mgleissn/Desktop/appdev/drivetime/settings.plist
+c000000004C8326D2000000000000011E
+t1283663570
+s286
+
+N/Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.h
+c000000004C8485320000000000000382
+t1283753266
+s898
+i<UIKit/UIKit.h>
+i"myLocation.h"
+
+N/Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib
+c000000004C8B1A900000000000008545
+t1284184720
+s34117
+
+N/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/85A15CC9-3701-449F-B48D-71B1C11D5700.mobileprovision
+c000000004C47D2700000000000001C3C
+t1279775344
+s7228
+
+N/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision
+c000000004C8474CF000000000000258E
+t1283749071
+s9614
+
+N/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch.gch
+t1283751772
+s9897744
+
+N/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gafxlwpyfgsvyyawvtxxyvxoarxw/drivetime_Prefix.pch.gch
+t1283749015
+s9831984
+
+N/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gpzdfgxosmqhmrfnzjydnbksfecp/drivetime_Prefix.pch.gch
+t1283749016
+s10294832
+
+N/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch.gch
+t1283751772
+s10360592
+
+Ndrivetime-Info.plist
+c000000004C5A48C4000000000000038D
+t1280985284
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies305878265#305878265#0(260"[BWARN]Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: David McShane (3PU5S83JJT)', 'iPhone Developer: Michael Gleissner (HA4U29UZ26)' -- 'iPhone Developer: David McShane (3PU5S83JJT)' will be used.1(22@252"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: David McShane (3PU5S83JJT)', 'iPhone Developer: Michael Gleissner (HA4U29UZ26)' -- 'iPhone Developer: David McShane (3PU5S83JJT)' will be used.305878265#18446744073709551615#0#0(1@0"0(0#1#0"8637393184#0"0#
+
+CCodeSign /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+s305878265.857841
+e305878266.036983
+r1
+xCodeSign
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/drivetime.app305878265#305878266#0(0"0(0#0#75"/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app8634982560#667"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: David McShane (3PU5S83JJT)" --resource-rules=/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/ResourceRules.plist --entitlements /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSDataAdditions.o /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.623737
+e305444573.698846
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSDataAdditions.o
+x/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m305444573#305444573#0(0"0(0#0#58"/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m8605644704#1808"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSDataAdditions.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.430009
+e305444573.473899
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m305444573#305444573#0(0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m8605008928#1824"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSObject+SBJSON.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSString+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.430952
+e305444573.484313
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m305444573#305444573#0(0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m8604531392#1824"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/NSString+SBJSON.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonBase.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.473991
+e305444573.535975
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m305444573#305444573#0(0"0(0#0#69"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m8603146080#1814"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonBase.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonParser.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.484401
+e305444573.624788
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m305444573#305444573#0(0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m8607055712#1818"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonParser.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonWriter.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.536057
+e305444573.623648
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m305444573#305444573#0(0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m8609139552#1818"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/SBJsonWriter.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/TBXML.o /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.624843
+e305444573.735488
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/TBXML.o
+x/Users/mgleissn/Desktop/appdev/drivetime/TBXML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m305444573#305444573#0(0"0(0#0#48"/Users/mgleissn/Desktop/appdev/drivetime/TBXML.m8605403744#1788"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/TBXML.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeAppDelegate.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305527787.796153
+e305527787.914010
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeAppDelegate.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m: In function '-[drivetimeAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:39: warning: initialization makes pointer from integer without a cast
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:43: warning: assignment makes pointer from integer without a cast
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305527787#305527787#0(435"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m: In function '-[drivetimeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:39: warning: initialization makes pointer from integer without a cast/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:43: warning: assignment makes pointer from integer without a cast2(22@56"Initialization makes pointer from integer without a cast305527787#155#142#0(6@71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305443106#39#0#39#0#0"0(22@52"Assignment makes pointer from integer without a cast305527787#297#138#0(6@71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305443106#43#0#43#0#0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m8625579936#1826"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeAppDelegate.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305878265.620352
+e305878265.769164
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeViewController.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: In function '-[drivetimeViewController driveDataConn::]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:118: warning: initialization makes pointer from integer without a cast
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:115: warning: unused variable 'gMinutes'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:114: warning: unused variable 'gHours'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: At top level:
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878265#305878265#0(1079"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: In function '-[drivetimeViewController driveDataConn::]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:118: warning: initialization makes pointer from integer without a cast/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:115: warning: unused variable 'gMinutes'/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:114: warning: unused variable 'gHours'/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: At top level:/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@56"Initialization makes pointer from integer without a cast305878265#134#146#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#118#0#118#0#0"0(22@26"Unused variable 'gMinutes'305878265#280#116#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#115#0#115#0#19"unused variable '*'0(22@24"Unused variable 'gHours'305878265#396#114#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#114#0#114#0#19"unused variable '*'0(23@13"At top level:305878265#510#90#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#0#0#0#0#0"0(22@146"Property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation305878265#600#236#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#315#0#315#0#0"0(22@153"Property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation305878265#836#243#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#315#0#315#0#0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m8636979648#1832"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetimeViewController.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/main.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.246246
+e305444573.325629
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/main.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m305444573#305444573#0(0"0(0#0#58"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m8607411872#1797"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/myLocation.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444573.698935
+e305444573.753678
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/myLocation.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m305444573#305444573#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m8605050272#1806"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/myLocation.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/tripDetailsViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305877647.765644
+e305877647.835157
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/tripDetailsViewController.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController viewDidAppear:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: 'UIViewController' may not respond to '-startLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: (Messages without a matching method signature
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: will be assumed to return 'id' and accept
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: '...' as arguments.)
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:35: warning: 'UIViewController' may not respond to '-destLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController textFieldShouldReturn:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:39: warning: local declaration of 'dest' hides instance variable
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController getLoc:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:45: warning: 'UIViewController' may not respond to '-myLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController resignView:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:57: warning: 'UIViewController' may not respond to '-getPlaces::'
+lSLF07#2@87"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877647#305877647#0(1662"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController viewDidAppear:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: 'UIViewController' may not respond to '-startLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: (Messages without a matching method signature/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: will be assumed to return 'id' and accept/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: '...' as arguments.)/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:35: warning: 'UIViewController' may not respond to '-destLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController textFieldShouldReturn:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:39: warning: local declaration of 'dest' hides instance variable/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController getLoc:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:45: warning: 'UIViewController' may not respond to '-myLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController resignView:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:57: warning: 'UIViewController' may not respond to '-getPlaces::'6(22@49"'UIViewController' may not respond to '-startLoc'305877647#140#143#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#34#0#34#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305877647#283#139#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#34#0#34#0#0"0(22@48"'UIViewController' may not respond to '-destLoc'305877647#671#142#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#35#0#35#0#26"'*' may not respond to '*'0(22@51"Local declaration of 'dest' hides instance variable305877647#961#145#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#39#0#39#0#0"0(22@46"'UIViewController' may not respond to '-myLoc'305877647#1239#140#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#45#0#45#0#26"'*' may not respond to '*'0(22@52"'UIViewController' may not respond to '-getPlaces::'305877647#1516#146#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#57#0#57#0#26"'*' may not respond to '*'0(0#0#79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m8629480768#1839"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/tripDetailsViewController.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSDataAdditions.o /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.160811
+e305444574.242000
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSDataAdditions.o
+x/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m305444574#305444574#0(0"0(0#0#58"/Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m8604586240#1808"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/NSDataAdditions.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSDataAdditions.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444573.952802
+e305444574.000392
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m305444573#305444574#0(0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m8604924896#1824"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSObject+SBJSON.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSObject+SBJSON.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSString+SBJSON.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444573.994976
+e305444574.055532
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m305444573#305444574#0(0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m8604162784#1824"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/NSString+SBJSON.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/NSString+SBJSON.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonBase.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.002493
+e305444574.079903
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m305444574#305444574#0(0"0(0#0#69"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m8607221248#1814"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonBase.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonBase.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonParser.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.055612
+e305444574.180224
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m305444574#305444574#0(0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m8605104864#1818"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonParser.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonParser.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonWriter.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.079992
+e305444574.160721
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m305444574#305444574#0(0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m8607094016#1818"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../JSON/SBJsonWriter.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/SBJsonWriter.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/TBXML.o /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.180311
+e305444574.289715
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/TBXML.o
+x/Users/mgleissn/Desktop/appdev/drivetime/TBXML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m305444574#305444574#0(0"0(0#0#48"/Users/mgleissn/Desktop/appdev/drivetime/TBXML.m8604267008#1788"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/TBXML.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/TBXML.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeAppDelegate.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305527787.938029
+e305527788.264934
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeAppDelegate.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m: In function '-[drivetimeAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:39: warning: initialization makes pointer from integer without a cast
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:43: warning: assignment makes pointer from integer without a cast
+lSLF07#2@79"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305527787#305527788#0(435"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m: In function '-[drivetimeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:39: warning: initialization makes pointer from integer without a cast/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m:43: warning: assignment makes pointer from integer without a cast2(22@56"Initialization makes pointer from integer without a cast305527787#155#142#0(6@71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305443106#39#0#39#0#0"0(22@52"Assignment makes pointer from integer without a cast305527787#297#138#0(6@71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m305443106#43#0#43#0#0"0(0#0#71"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m8622244704#1826"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeAppDelegate.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeAppDelegate.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305878265.661655
+e305878265.785430
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeViewController.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: In function '-[drivetimeViewController driveDataConn::]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:118: warning: initialization makes pointer from integer without a cast
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:115: warning: unused variable 'gMinutes'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:114: warning: unused variable 'gHours'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: At top level:
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@82"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878265#305878265#0(1079"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: In function '-[drivetimeViewController driveDataConn::]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:118: warning: initialization makes pointer from integer without a cast/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:115: warning: unused variable 'gMinutes'/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:114: warning: unused variable 'gHours'/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m: At top level:/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m:315: warning: property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@56"Initialization makes pointer from integer without a cast305878265#134#146#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#118#0#118#0#0"0(22@26"Unused variable 'gMinutes'305878265#280#116#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#115#0#115#0#19"unused variable '*'0(22@24"Unused variable 'gHours'305878265#396#114#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#114#0#114#0#19"unused variable '*'0(23@13"At top level:305878265#510#90#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#0#0#0#0#0"0(22@146"Property 'dtimeSettingsButton' requires method '-dtimeSettingsButton' to be defined - use @synthesize, @dynamic or provide a method implementation305878265#600#236#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#315#0#315#0#0"0(22@153"Property 'dtimeSettingsButton' requires the method 'setDtimeSettingsButton:' to be defined - use @synthesize, @dynamic or provide a method implementation305878265#836#243#0(6@74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m305878264#315#0#315#0#0"0(0#0#74"/Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m8632023392#1832"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/drivetimeViewController.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetimeViewController.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/main.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444573.735576
+e305444573.782004
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/main.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m305444573#305444573#0(0"0(0#0#58"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m8604499520#1797"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../main.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/myLocation.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444574.242088
+e305444574.293738
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/myLocation.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m305444574#305444574#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m8600214752#1806"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/myLocation.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/myLocation.o0#
+
+CCompileC build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/tripDetailsViewController.o /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305877648.288439
+e305877648.687272
+r1
+xCompileC
+xbuild/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/tripDetailsViewController.o
+x/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController viewDidAppear:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: 'UIViewController' may not respond to '-startLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: (Messages without a matching method signature
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: will be assumed to return 'id' and accept
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: '...' as arguments.)
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:35: warning: 'UIViewController' may not respond to '-destLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController textFieldShouldReturn:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:39: warning: local declaration of 'dest' hides instance variable
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController getLoc:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:45: warning: 'UIViewController' may not respond to '-myLoc'
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController resignView:]':
+o/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:57: warning: 'UIViewController' may not respond to '-getPlaces::'
+lSLF07#2@87"Compile /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877648#305877648#0(1662"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController viewDidAppear:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: 'UIViewController' may not respond to '-startLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: (Messages without a matching method signature/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: will be assumed to return 'id' and accept/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:34: warning: '...' as arguments.)/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:35: warning: 'UIViewController' may not respond to '-destLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController textFieldShouldReturn:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:39: warning: local declaration of 'dest' hides instance variable/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController getLoc:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:45: warning: 'UIViewController' may not respond to '-myLoc'/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m: In function '-[tripDetailsViewController resignView:]':/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m:57: warning: 'UIViewController' may not respond to '-getPlaces::'6(22@49"'UIViewController' may not respond to '-startLoc'305877648#140#143#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#34#0#34#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)305877648#283#139#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#34#0#34#0#0"0(22@48"'UIViewController' may not respond to '-destLoc'305877648#671#142#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#35#0#35#0#26"'*' may not respond to '*'0(22@51"Local declaration of 'dest' hides instance variable305877648#961#145#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#39#0#39#0#0"0(22@46"'UIViewController' may not respond to '-myLoc'305877648#1239#140#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#45#0#45#0#26"'*' may not respond to '*'0(22@52"'UIViewController' may not respond to '-getPlaces::'305877648#1516#146#0(6@79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m305877323#57#0#57#0#26"'*' may not respond to '*'0(0#0#79"/Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m8628236224#1839"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -include /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch -c /Users/mgleissn/Desktop/appdev/drivetime/Classes/../tripDetailsViewController.m -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/tripDetailsViewController.o0#
+
+CCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib
+s305441814.104603
+e305441814.675515
+r1
+xCompileXIB
+x/Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib305441814#305441814#0(0"0(0#0#55"/Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib8615300032#550"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/MainWindow.nib /Users/mgleissn/Desktop/appdev/drivetime/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib
+s305527787.317704
+e305527787.795817
+r1
+xCompileXIB
+x/Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib
+lSLF07#2@38"CompileXIB drivetimeViewController.xib305527787#305527787#0(0"0(0#0#68"/Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib8627093120#576"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetimeViewController.nib /Users/mgleissn/Desktop/appdev/drivetime/drivetimeViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib
+s305877647.315699
+e305877647.733492
+r1
+xCompileXIB
+x/Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib
+lSLF07#2@40"CompileXIB tripDetailsViewController.xib305877647#305877647#0(0"0(0#0#70"/Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib8633203136#580"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/tripDetailsViewController.nib /Users/mgleissn/Desktop/appdev/drivetime/tripDetailsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCopyPNGFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/go_button.png go_button.png
+s305441814.729444
+e305441815.046147
+r1
+xCopyPNGFile
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/go_button.png
+xgo_button.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/drivetime.app/go_button.png go_button.png305441814#305441815#0(0"0(0#0#54"/Users/mgleissn/Desktop/appdev/drivetime/go_button.png8607694336#574"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mgleissn/Desktop/appdev/drivetime/go_button.png /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/go_button.png0#
+
+CCopyPNGFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/location_button_black.png location_button_black.png
+s305441815.046227
+e305441815.106247
+r1
+xCopyPNGFile
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/location_button_black.png
+xlocation_button_black.png
+lSLF07#2@98"CopyPNGFile build/Debug-iphoneos/drivetime.app/location_button_black.png location_button_black.png305441815#305441815#0(0"0(0#0#66"/Users/mgleissn/Desktop/appdev/drivetime/location_button_black.png8615273120#598"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/mgleissn/Desktop/appdev/drivetime/location_button_black.png /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/location_button_black.png0#
+
+CCopyPlistFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/settings.plist settings.plist
+s305441815.106326
+e305441815.165334
+r1
+xCopyPlistFile
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/settings.plist
+xsettings.plist
+lSLF07#2@19"Copy settings.plist305441815#305441815#0(0"0(0#0#55"/Users/mgleissn/Desktop/appdev/drivetime/settings.plist8613897536#381"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 settings.plist --outdir /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app0#
+
+CCpResource build/Debug-iphoneos/drivetime.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s305441814.056774
+e305441814.104354
+r1
+xCpResource
+xbuild/Debug-iphoneos/drivetime.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist305441814#305441814#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8307809061684012032#486"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app0#
+
+CCreateUniversalBinary /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime normal "armv6 armv7"
+s305878265.823455
+e305878265.826158
+r1
+xCreateUniversalBinary
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/drivetime.app/drivetime normal "armv6 armv7"305878265#305878265#0(0"0(0#0#52"/Users/mgleissn/Desktop/appdev/drivetime/armv6 armv78636856608#542"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime -output /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime0#
+
+CGenerateDSYMFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app.dSYM /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime
+s305878265.826213
+e305878265.855568
+r1
+xGenerateDSYMFile
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app.dSYM
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/drivetime.app.dSYM build/Debug-iphoneos/drivetime.app/drivetime305878265#305878265#0(0"0(0#0#85"/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime8637330048#374"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/drivetime -o /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app.dSYM0#
+
+CLd /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime normal armv6
+s305878265.769390
+e305878265.809252
+r1
+xLd
+x/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime
+xnormal
+xarmv6
+lSLF07#2@129"Link /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime305878265#305878265#0(0"0(0#0#0"8636768736#927"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -filelist /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -lz -framework CoreLocation -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv6/drivetime0#
+
+CLd /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime normal armv7
+s305878265.786549
+e305878265.823371
+r1
+xLd
+x/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime
+xnormal
+xarmv7
+lSLF07#2@129"Link /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime305878265#305878265#0(0"0(0#0#0"8633677952#927"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -filelist /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -lz -framework CoreLocation -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/Objects-normal/armv7/drivetime0#
+
+CProcessInfoPlistFile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/Info.plist drivetime-Info.plist
+s305441814.062714
+e305441814.104554
+r1
+xProcessInfoPlistFile
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/Info.plist
+xdrivetime-Info.plist
+lSLF07#2@28"Process drivetime-Info.plist305441814#305441814#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/drivetime-Info.plist8615448768#578"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility drivetime-Info.plist -genpkginfo /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/ResourceRules.plist -o /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/Info.plist0#
+
+CProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305444572.297257
+e305444572.998441
+r1
+xProcessPCH
+x/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch.gch
+xdrivetime_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile drivetime_Prefix.pch305444572#305444572#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch8609294336#1680"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -c /Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch -o /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-camoivxdgfodfockwtapwitkfvrg/drivetime_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gafxlwpyfgsvyyawvtxxyvxoarxw/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s305441815.191772
+e305441815.955222
+r1
+xProcessPCH
+x/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gafxlwpyfgsvyyawvtxxyvxoarxw/drivetime_Prefix.pch.gch
+xdrivetime_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile drivetime_Prefix.pch305441815#305441815#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch8610107136#1680"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv6 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -c /Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch -o /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gafxlwpyfgsvyyawvtxxyvxoarxw/drivetime_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gpzdfgxosmqhmrfnzjydnbksfecp/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305441815.192725
+e305441816.103519
+r1
+xProcessPCH
+x/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gpzdfgxosmqhmrfnzjydnbksfecp/drivetime_Prefix.pch.gch
+xdrivetime_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile drivetime_Prefix.pch305441815#305441816#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch8612504160#1680"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -c /Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch -o /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gpzdfgxosmqhmrfnzjydnbksfecp/drivetime_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch.gch drivetime_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s305444572.298048
+e305444573.246011
+r1
+xProcessPCH
+x/var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch.gch
+xdrivetime_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile drivetime_Prefix.pch305444572#305444573#0(0"0(0#0#61"/Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch8609044000#1680"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-generated-files.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-own-target-headers.hmap -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-all-target-headers.hmap -iquote /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime-project-headers.hmap -F/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos -I/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/include -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources/armv7 -I/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/DerivedSources -c /Users/mgleissn/Desktop/appdev/drivetime/drivetime_Prefix.pch -o /var/folders/vT/vTKj1c3SEcGcGa85NlTc9k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/drivetime_Prefix-gqziuoztgcoqazeqvabwvmetizmp/drivetime_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/85A15CC9-3701-449F-B48D-71B1C11D5700.mobileprovision" /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+s305446914.992019
+e305446914.994862
+r1
+xProcessProductPackaging
+x/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/85A15CC9-3701-449F-B48D-71B1C11D5700.mobileprovision
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/85A15CC9-3701-449F-B48D-71B1C11D5700.mobileprovision" build/Debug-iphoneos/drivetime.app/embedded.mobileprovision305446914#305446914#0(0"0(0#0#100"/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision8618609472#432"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/85A15CC9-3701-449F-B48D-71B1C11D5700.mobileprovision" -o /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision" /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+s305527788.678599
+e305527788.692246
+r1
+xProcessProductPackaging
+x/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision" build/Debug-iphoneos/drivetime.app/embedded.mobileprovision305527788#305527788#0(0"0(0#0#100"/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision8625225024#432"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mgleissn/Library/MobileDevice/Provisioning Profiles/E2A5896F-9A1D-42F1-B833-C74FE5B83962.mobileprovision" -o /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent
+s305527788.694597
+e305527788.729266
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent305527788#305527788#0(0"0(0#0#109"/Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent8628257088#442"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mgleissn/Desktop/appdev/drivetime/build/drivetime.build/Debug-iphoneos/drivetime.build/drivetime.xcent0#
+
+CTouch /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+s305878265.855759
+e305878265.857725
+r1
+xTouch
+x/Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app
+lSLF07#2@81"Touch /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app305878265#305878265#0(0"0(0#0#0"8636162272#270"    cd /Users/mgleissn/Desktop/appdev/drivetime    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mgleissn/Desktop/appdev/drivetime/build/Debug-iphoneos/drivetime.app0#
+
